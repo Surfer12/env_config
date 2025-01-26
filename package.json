@@ -1,20 +1,29 @@
 {
-  "name": "cognitive-processing-framework",
+  "name": "secure-env-processor",
   "version": "1.0.0",
-  "description": "Adaptive environment variable processing framework",
+  "description": "Secure environment variable processor",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "test": "jest"
   },
+  "keywords": [
+    "environment",
+    "security",
+    "configuration"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",
-    "typescript": "^5.0.4",
     "jest": "^29.5.0",
-    "@types/jest": "^29.5.0"
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
   }
 } 

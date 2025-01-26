@@ -55,4 +55,82 @@ async function main() {
 
 ## License
 
+MIT License
+
+# Secure Environment Variable Processor
+
+## Overview
+
+This project provides a robust, secure mechanism for handling environment variables in a TypeScript application. The `EnvironmentProcessor` ensures:
+
+- Secure loading of environment variables from multiple sources
+- Masking of sensitive information
+- Validation of critical configuration parameters
+- Flexible environment-specific configuration
+
+## Features
+
+- 🔒 Secure Environment Variable Handling
+- 🌐 Multi-Environment Support
+- 🕵️ Sensitive Data Protection
+- 🚦 Configuration Validation
+
+## Installation
+
+```bash
+npm install
+```
+
+## Usage
+
+### Basic Configuration
+
+1. Create a `.env` file in the `config/` directory:
+
+```
+NODE_ENV=development
+DEBUG=true
+GITHUB_TOKEN=your_github_token
+API_KEY=your_api_key
+```
+
+2. Use the environment processor in your code:
+
+```typescript
+import { envProcessor } from './processors/env-processor';
+
+// Retrieve a configuration value
+const githubToken = envProcessor.get('GITHUB_TOKEN');
+
+// Log configuration (sensitive values will be masked)
+envProcessor.logConfig();
+
+// Check current environment
+if (envProcessor.isEnvironment('development')) {
+    console.log('Running in development mode');
+}
+```
+
+## Security Mechanisms
+
+- Sensitive keys (containing TOKEN, SECRET, PASSWORD, etc.) are automatically masked
+- Multiple environment files are supported (`.env`, `.env.development`, `.env.local`)
+- Required variables are validated during initialization
+
+## Error Handling
+
+The processor throws `EnvironmentConfigError` for:
+- Missing required environment variables
+- Attempts to access undefined variables without a default
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
 MIT License 
