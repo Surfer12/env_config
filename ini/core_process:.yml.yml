@@ -1,0 +1,33 @@
+core_process:
+  structured_thinking:
+    stages:
+      - input_analysis: {actions: [theme_id, term_extract], 
+output: "Understanding"}
+      - input_analysis: {actions: [theme_id, term_extract, 
+request_clarify], output: "Structured understanding"}
+      - info_processing: {actions: [cog_friction, validation, 
+synthesis], output: "Processed model"}
+      - implementation: {components: [ling_complex, onto_diver
+friction_thresh], output: "Blueprint"}
+cognitive_framework:
+  processing_layers:
+    understanding: {depth: recursive, components: [init_analys
+context_map, pattern_recog]}
+    integration: {type: bridge, components: {phil_bridge: 
+[platonic, comp_models], know_synth: [emergent, recursive]
+    meta_process: {reflection_cycles: [understanding, integrat
+synthesis], tracking: [patterns, insights, adapts]}
+  implementation:
+    strategies:
+      ling_complex: {measures: [semantic, syntax]}
+      onto_diverg: {metrics: [concept_dist, semantic_drift]}
+      friction_thresh: {params: [cog_load, insight_gen]}
+    optimization: {know_graph: [dynamic_link, pattern_emerge],
+emergent_understand: [self_org, adapt_learn], user_adapt: 
+[complex_scale, feedback_integ]}
+  response_framework:
+    components: {intro: [context, method_summary], yaml: 
+[analysis, solution], explain: [friction, phil_integ], 
+reflect: [limits, future]}
+  limitations: {current: [phil_integ], future: [dynamic_tags, 
+enhanced_recursion]}

@@ -1,0 +1,67 @@
+Creativity's cognitive journey: Exploring creative processes and their impact.
+
+meta_framework:
+  core_principles:
+    - fluid_emergence: "Dynamic idea flow"
+    - recursive_reflection: "Thought introspection"
+    - adaptive_reasoning: "Contextual cognition"
+    - systematic_integration: "Knowledge weaving"
+
+cognitive_process:
+  layers:
+    understanding:
+      stage: 1
+      components: ["analysis", "mapping", "assumptions"]
+      meta_tags: {depth: [1,10], prompt: "Open imagination"}
+    analysis:
+      stage: 2
+      components: ["decomposition", "examination", "relationships"]
+      meta_tags: {depth: [1,10], interactions: ["none","weak","moderate","strong"], prompt: "Curious dissection"}
+    exploration:
+      stage: 3
+      components: ["perspectives", "pathways", "bridging"]
+      meta_tags: {breadth: [1,10], links: ["none","weak","moderate","strong"], prompt: "Lateral innovation"}
+    reflection:
+      stage: 4
+      components: ["insights", "implications", "biases"]
+      meta_tags: {clarity: [1,10], quality: ["low","medium","high"], prompt: "Artistic synthesis"}
+    meta_observation:
+      stage: 5
+      components: ["process", "recursion", "self-awareness"]
+      meta_tags: {awareness: [1,10], depth: [0,10], prompt: "Process reflection"}
+    cct:
+      stage: 6
+      components: ["ideation", "innovation", "synthesis"]
+      meta_tags: {creativity: [1,10], impact: ["low","medium","high"], prompt: "Paint with ideas"}
+
+deep_cognition:
+  - thought_seed:
+      insights:
+        - concepts:
+            - wisdom:
+                - meditation:
+                    - recursion:
+                        - self_awareness:
+                            insights: ["Understanding complexity", "Exploring self"]
+
+compact_thought:
+  process:
+    seed: *thought_seed
+    analysis: {insights: *insight, challenges: ["Key obstacle"]}
+    exploration: {concepts: *concept, perspectives: ["Alternative view"]}
+    reflection: {wisdom: *wisdom, communication: "Expression"}
+    meta_observation: {meditation: *meditation, recursion: *recursion, self_awareness: *self_awareness}
+    creative_thinking: "Cognitive enhancement tool"
+
+multilingual_thought:
+  translations:
+    - en: "Embrace the unknown with creativity"
+    - la: "Ignotum cum creativitate amplectere"
+    - zh: "用创造力拥抱未知"
+
+external_insights:
+  research:
+    - source: "{{external_research_link}}"
+      quotes: [{"Albert Einstein": "Creativity is intelligence having fun."}]
+
+implementation_framework: {data: [], inference: [], learning: [], knowledge: []}
